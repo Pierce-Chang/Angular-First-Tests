@@ -11,8 +11,18 @@ header {
     align-items: center;
     justify-content: space-between;
 
+    a {
+        color: white;
+        text-decoration: none;
+        margin-left: 32px;
+        font-weight: 00;
+
+        &:hover {
+            color: rgba(255, 255, 255, 0.8);
+        }
+    }
+
     img {
-        height: 80px;
-        width: 80px;
+        height: 50px;
     }
 }
